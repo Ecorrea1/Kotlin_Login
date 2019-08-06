@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Kotlin_Login</string>
+    <string name="app_name">lOGIN kOTLIN</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="name">Nombre</string>
+    <string name="email">email</string>
+    <string name="pass">Contraseña</string>
+    <string name="remember_pass">Olvido su Contraseña</string>
+    <string name="create_new_account">Crear Nueva Cuenta</string>
+    <string name="cancel">Cancelar</string>
+    <string name="create_account">Crear Cuenta</string>
+    <string name="send">Ingresar</string>
 </resources>

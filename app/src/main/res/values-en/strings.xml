@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Login Kotlin</string>
+    <string name="welcome">Welcome</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="remember_pass">O</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_account">Create Account</string>
+    <string name="send">Send</string>
+
+</resources>

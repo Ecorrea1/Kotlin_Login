@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Registrar">
+
+    <TextView
+            android:text="Crear Cuenta de Ingreso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="32dp" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="32dp"/>
+    <EditText
+            android:hint="Email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txt_c_email"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" android:layout_marginTop="32dp"/>
+    <EditText
+            android:hint="Password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_c_password" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/txt_c_email" android:layout_marginStart="32dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+            android:text="Crear Cuenta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_crearCuenta" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/txt_c_password" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="32dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="32dp"/>
+    <Button
+            android:text="Cancelar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_cancelar" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/bt_crearCuenta" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="32dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="32dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
